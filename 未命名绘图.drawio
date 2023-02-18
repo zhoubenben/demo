@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-18T12:14:14.083Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="wOB6sKo7TnDKrIAUF-Zd" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-18T12:52:27.782Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="Gwn-pAbh_hQlo_8W97g5" version="20.8.20" type="github">
   <diagram name="第 1 页" id="GeeEb77dweloTAw-bRXM">
-    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2022" dy="1806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,16 +10,16 @@
         <mxCell id="noXm-ATCnPWvdTikBei7-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="noXm-ATCnPWvdTikBei7-5" target="noXm-ATCnPWvdTikBei7-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="noXm-ATCnPWvdTikBei7-5" value="&lt;div&gt;可视化配置存储到sessionStorage&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="noXm-ATCnPWvdTikBei7-5" value="&lt;div&gt;可视化配置存储到sessionStorage，存储临时可视化的&lt;/div&gt;配置&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="160" width="480" height="80" as="geometry" />
         </mxCell>
         <mxCell id="noXm-ATCnPWvdTikBei7-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="noXm-ATCnPWvdTikBei7-6" target="noXm-ATCnPWvdTikBei7-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="noXm-ATCnPWvdTikBei7-6" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;可视化应用发布&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="noXm-ATCnPWvdTikBei7-6" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;将可视化应用的配置数据发布到服务器，本地和远程两种存储形式&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="80" y="280" width="480" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="noXm-ATCnPWvdTikBei7-7" value="可视化应用渲染" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="noXm-ATCnPWvdTikBei7-7" value="所有组件基于本地JSON或者远程JSON配置数据进行可视化应用渲染" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="400" width="480" height="80" as="geometry" />
         </mxCell>
         <mxCell id="noXm-ATCnPWvdTikBei7-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="noXm-ATCnPWvdTikBei7-1" target="noXm-ATCnPWvdTikBei7-5">
@@ -82,6 +82,172 @@
         </mxCell>
         <mxCell id="noXm-ATCnPWvdTikBei7-28" value="&lt;b&gt;S100&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="615" y="15" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="1" source="noXm-ATCnPWvdTikBei7-43" target="noXm-ATCnPWvdTikBei7-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-43" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="-40" width="373" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-38" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="20" width="140" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-30" value="组件可视化布局器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="-17.5" width="120" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-31" value="pinia状态管理" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-32" value="组件属性、数据配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="32.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-33" value="布局器配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="107.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-36" value="渲染" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="30" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-37" value="反馈" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-248" y="30" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-39" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="noXm-ATCnPWvdTikBei7-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-190" y="100" as="sourcePoint" />
+            <mxPoint x="-140" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-40" value="控制" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="80" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-41" value="更新" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="100" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-42" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="noXm-ATCnPWvdTikBei7-31" target="noXm-ATCnPWvdTikBei7-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-300" y="90" as="sourcePoint" />
+            <mxPoint x="-250" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-47" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=1;strokeWidth=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="noXm-ATCnPWvdTikBei7-31" target="noXm-ATCnPWvdTikBei7-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="120" as="sourcePoint" />
+            <mxPoint x="250" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-200" y="230" />
+              <mxPoint x="-50" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-48" value="存储" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="230" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-49" value="更新" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="210" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-53" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-160" y="260" width="310" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-52" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="noXm-ATCnPWvdTikBei7-53">
+          <mxGeometry width="188" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-50" value="生成应用唯一id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="noXm-ATCnPWvdTikBei7-53">
+          <mxGeometry x="28" y="10" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-51" value="可视化JSON上传数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="noXm-ATCnPWvdTikBei7-53">
+          <mxGeometry x="28" y="80" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="1" source="noXm-ATCnPWvdTikBei7-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-90" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-430" y="430" width="478" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-89" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="noXm-ATCnPWvdTikBei7-90">
+          <mxGeometry width="478" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-58" value="根据唯一id获取JSON可视化配置数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="noXm-ATCnPWvdTikBei7-90">
+          <mxGeometry x="146" y="10" width="142" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-59" value="本地存储是否存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="noXm-ATCnPWvdTikBei7-90">
+          <mxGeometry x="182" y="100" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="noXm-ATCnPWvdTikBei7-90" source="noXm-ATCnPWvdTikBei7-58" target="noXm-ATCnPWvdTikBei7-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-61" value="远程服务器获取" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="noXm-ATCnPWvdTikBei7-90">
+          <mxGeometry x="288" y="130" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="noXm-ATCnPWvdTikBei7-90" source="noXm-ATCnPWvdTikBei7-59" target="noXm-ATCnPWvdTikBei7-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-80" value="" style="group" vertex="1" connectable="0" parent="noXm-ATCnPWvdTikBei7-90">
+          <mxGeometry x="146" y="270" width="314" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-65" value="配置各组件属性" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="noXm-ATCnPWvdTikBei7-80">
+          <mxGeometry x="172" width="142" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="noXm-ATCnPWvdTikBei7-80" source="noXm-ATCnPWvdTikBei7-64" target="noXm-ATCnPWvdTikBei7-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-66" value="渲染所有组件和布局" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="noXm-ATCnPWvdTikBei7-80">
+          <mxGeometry x="172" y="60" width="142" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="noXm-ATCnPWvdTikBei7-80" source="noXm-ATCnPWvdTikBei7-65" target="noXm-ATCnPWvdTikBei7-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-67" value="渲染所有组件和布局" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="noXm-ATCnPWvdTikBei7-80">
+          <mxGeometry y="60" width="142" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="noXm-ATCnPWvdTikBei7-80" source="noXm-ATCnPWvdTikBei7-66" target="noXm-ATCnPWvdTikBei7-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-68" value="组件动态数据请求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="noXm-ATCnPWvdTikBei7-80">
+          <mxGeometry x="1" y="120" width="142" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="noXm-ATCnPWvdTikBei7-80" source="noXm-ATCnPWvdTikBei7-67" target="noXm-ATCnPWvdTikBei7-68">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="72" y="120" />
+              <mxPoint x="72" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-64" value="动态注册图表组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="noXm-ATCnPWvdTikBei7-80">
+          <mxGeometry width="142" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-86" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;" edge="1" parent="noXm-ATCnPWvdTikBei7-90" source="noXm-ATCnPWvdTikBei7-61" target="noXm-ATCnPWvdTikBei7-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="343" y="220" />
+              <mxPoint x="217" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="noXm-ATCnPWvdTikBei7-90" source="noXm-ATCnPWvdTikBei7-81" target="noXm-ATCnPWvdTikBei7-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="186.00000000000023" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="78" y="220" />
+              <mxPoint x="217" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-81" value="本地浏览器sessionStorage获取" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="noXm-ATCnPWvdTikBei7-90">
+          <mxGeometry x="8" y="130" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="noXm-ATCnPWvdTikBei7-90" source="noXm-ATCnPWvdTikBei7-59" target="noXm-ATCnPWvdTikBei7-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-87" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="noXm-ATCnPWvdTikBei7-90">
+          <mxGeometry x="80" y="190" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="noXm-ATCnPWvdTikBei7-88" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="noXm-ATCnPWvdTikBei7-90">
+          <mxGeometry x="298" y="190" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
