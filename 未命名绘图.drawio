@@ -1,32 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2023-02-18T11:49:34.825Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="680qCgaSMMaOqoUBSg-a" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-18T12:14:14.083Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="wOB6sKo7TnDKrIAUF-Zd" version="20.8.20" type="github">
   <diagram name="第 1 页" id="GeeEb77dweloTAw-bRXM">
-    <mxGraphModel dx="1434" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="noXm-ATCnPWvdTikBei7-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="noXm-ATCnPWvdTikBei7-1" value="根据业务需求使用布局器搭建可视化应用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="40" width="480" height="80" as="geometry" />
         </mxCell>
         <mxCell id="noXm-ATCnPWvdTikBei7-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="noXm-ATCnPWvdTikBei7-5" target="noXm-ATCnPWvdTikBei7-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="noXm-ATCnPWvdTikBei7-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="noXm-ATCnPWvdTikBei7-5" value="&lt;div&gt;可视化配置存储到sessionStorage&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="160" width="480" height="80" as="geometry" />
         </mxCell>
         <mxCell id="noXm-ATCnPWvdTikBei7-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="noXm-ATCnPWvdTikBei7-6" target="noXm-ATCnPWvdTikBei7-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="noXm-ATCnPWvdTikBei7-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="noXm-ATCnPWvdTikBei7-6" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;可视化应用发布&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="80" y="280" width="480" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="noXm-ATCnPWvdTikBei7-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="noXm-ATCnPWvdTikBei7-7" target="noXm-ATCnPWvdTikBei7-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="noXm-ATCnPWvdTikBei7-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="noXm-ATCnPWvdTikBei7-7" value="可视化应用渲染" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="400" width="480" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="noXm-ATCnPWvdTikBei7-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="520" width="480" height="80" as="geometry" />
         </mxCell>
         <mxCell id="noXm-ATCnPWvdTikBei7-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="noXm-ATCnPWvdTikBei7-1" target="noXm-ATCnPWvdTikBei7-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -80,34 +74,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="noXm-ATCnPWvdTikBei7-24" value="" style="curved=1;endArrow=classic;html=1;rounded=0;strokeWidth=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="560" as="sourcePoint" />
-            <mxPoint x="620" y="510" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="620" y="560" />
-              <mxPoint x="570" y="510" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="noXm-ATCnPWvdTikBei7-25" value="&lt;b&gt;S300&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="615" y="250" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="noXm-ATCnPWvdTikBei7-26" value="&lt;b&gt;S400&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="620" y="370" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="noXm-ATCnPWvdTikBei7-27" value="&lt;b&gt;S500&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="620" y="490" width="50" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="noXm-ATCnPWvdTikBei7-28" value="&lt;b&gt;S100&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="615" y="15" width="50" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="noXm-ATCnPWvdTikBei7-29" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;strokeWidth=1;" edge="1" parent="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="410" y="290" as="sourcePoint" />
-            <mxPoint x="490" y="290" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
